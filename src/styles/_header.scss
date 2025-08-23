@@ -1,5 +1,6 @@
-#particles-js {
-  background: $main;
+
+body {
+  background: url("assets/images/backdrop.jpeg") no-repeat center center fixed;
   display: flex;
   vertical-align: bottom;
   width: 100%;
@@ -7,11 +8,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  .particles-js-canvas-el {
-    width:100% !important;
-    height:100vh !important;
-  }
 }
+
 
 .header {
   z-index: 1;
