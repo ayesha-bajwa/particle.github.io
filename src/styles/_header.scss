@@ -17,6 +17,11 @@ body {
   color: white; /* optional: makes text visible */
 }
 
+.header-bg {
+  background: url('https://raw.githubusercontent.com/ayesha-bajwa/particle.github.io/master/assets/img/backdrop.jpeg') no-repeat center center;
+  background-size: cover;
+}
+
 
 .header {
   z-index: 1;
