@@ -10,6 +10,13 @@ body {
   background-attachment: fixed;
 }
 
+.site-header {
+  background: url("assets/images/backdrop.jpeg") no-repeat center center;
+  background-size: cover;
+  background-attachment: scroll; /* keep it fixed = parallax, scroll = normal */
+  color: white; /* optional: makes text visible */
+}
+
 
 .header {
   z-index: 1;
