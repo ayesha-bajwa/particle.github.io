@@ -1,5 +1,5 @@
 
-body {
+.site-header  {
   background: url("https://raw.githubusercontent.com/ayesha-bajwa/particle.github.io/master/assets/img/backdrop.jpeg") no-repeat center center fixed;
   display: flex;
   vertical-align: bottom;
@@ -8,12 +8,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-}
-
-.site-header {
-  background: url("https://raw.githubusercontent.com/ayesha-bajwa/particle.github.io/master/assets/img/backdrop.jpeg") no-repeat center center;
-  background-size: cover;
-  background-attachment: scroll; /* keep it fixed = parallax, scroll = normal */
   color: white; /* optional: makes text visible */
 }
 
