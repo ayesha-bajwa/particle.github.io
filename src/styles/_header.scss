@@ -17,8 +17,7 @@
 }
 
 .header {
-
- background: url('https://raw.githubusercontent.com/ayesha-bajwa/particle.github.io/master/assets/img/backdrop.jpeg') no-repeat;
+  background: url('https://raw.githubusercontent.com/ayesha-bajwa/particle.github.io/master/assets/img/backdrop.jpeg');
   background-size: cover;
   display: flex;
   vertical-align: bottom;
@@ -36,6 +35,16 @@
   color: #FFF;
   position: relative;
   z-index: 1;
+
+   .wrapper {
+    width: 100%;
+    height: 100%; // fill header
+    display: flex;
+    flex-direction: column;
+    justify-content: center; // vertical centering
+    align-items: center;     // horizontal centering
+    text-align: center;
+  }
 
   .site-title {
     font-size: 30px;
