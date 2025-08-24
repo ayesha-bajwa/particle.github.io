@@ -23,21 +23,21 @@
   background-size: cover;
   display: flex;
   vertical-align: bottom;
-  width: 200%;
-  min-height: 200vh;
+  width: 100%;
+  min-height: 100vh;
   background-repeat: no-repeat;
   background-attachment: fixed;
   color: white; 
-  
-  z-index: 1;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  color:#FFF;
+
+  color: #FFF;
   position: relative;
-  top: 50%;
-  left: 50%;
-  margin: 0 auto;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  z-index: 1;
+
   .site-title {
     font-size: 50px;
     display: block;
