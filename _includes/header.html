@@ -15,6 +15,16 @@
   overflow: hidden;
 ">
   <div class="wrapper">
+    .site-description {
+    font-size: 15px;
+    display: block;
+    line-height: 1;
+    color: #FFF;
+    margin-top: 10px;
+    @media only screen and (min-width:$cut){
+      font-size: 20px;
+    }
+  }
     <h1 class="site-title">{{ site.username }}</h1>
     <p class="site-description">{{ site.user_title }}</p>
 
